@@ -111,6 +111,8 @@ public class HelloArActivity extends AppCompatActivity implements GLSurfaceView.
   protected void onResume() {
     super.onResume();
 
+//    on reumse test
+
     if (session == null) {
       Exception exception = null;
       String message = null;
