@@ -73,6 +73,9 @@ public class HelloArActivity extends AppCompatActivity implements GLSurfaceView.
   private final SnackbarHelper messageSnackbarHelper = new SnackbarHelper();
   private DisplayRotationHelper displayRotationHelper;
   private TapHelper tapHelper;
+  
+  
+  //this is good code
 
   private final BackgroundRenderer backgroundRenderer = new BackgroundRenderer();
   private final ObjectRenderer virtualObject = new ObjectRenderer();
