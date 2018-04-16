@@ -114,6 +114,8 @@ public class HelloArActivity extends AppCompatActivity implements GLSurfaceView.
     if (session == null) {
       Exception exception = null;
       String message = null;
+
+      //done some value
       try {
         switch (ArCoreApk.getInstance().requestInstall(this, !installRequested)) {
           case INSTALL_REQUESTED:
